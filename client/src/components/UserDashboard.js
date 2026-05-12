@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { requireAuth, logout, api } from '../utils/api';
+import { requireAuth, logout } from '../utils/api';
 import { useNavigate } from 'react-router-dom';
 
 const UserDashboard = () => {
